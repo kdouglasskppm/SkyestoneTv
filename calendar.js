@@ -8,7 +8,7 @@
 */
 const ACTIVITIES=[
  {display:"hoa",date:"2026-09-14",start:"08:00",end:"23:59",title:"Weekly Community Reminder",details:"Add important Skyestone notices and upcoming dates here."},
- {display:"social",date:"2026-09-14",start:"08:00",end:"23:59",title:"Social Information",details:"Add Lifestyle Activities, Happy Hours, outings and other social information here."},
+ {display:"social",date:"2026-09-14",start:"08:00",end:"23:59",title:"Live at the Lodge",details:"Registration is open. Join your neighbors for Live at the Lodge."},
  {display:"fitness",date:"2026-09-14",start:"08:00",end:"23:59",title:"Fitness Information",details:"Add today's fitness classes, activities or facility notices here."}
 ];
 const RESERVATIONS=[
