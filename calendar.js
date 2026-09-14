@@ -1,159 +1,28 @@
-/*
-  SKYESTONE TV DISPLAY
-  --------------------
-  Change the settings below to control each TV.
-
-  Display names:
-    HOA Business
-    Fitness
-    Social
-    Conference Room Reservation
-    Fitness Room Reservations
-
-  The sample activities are intentionally easy to replace.
+/* SKYESTONE TV — MANUAL ENTRY VERSION
+   Display URLs:
+   ?display=hoa
+   ?display=social
+   ?display=fitness
+   ?display=fitness-reservations
+   ?display=conference
 */
-
-const CONFIG = {
-  display: "HOA Business",
-  rotationSeconds: 12,
-  timeFormat: "12-hour",
-  refreshMinutes: 15
-};
-
-// Use ISO dates (YYYY-MM-DD). Times use 24-hour format.
-// Add, remove, or change activities here.
-const ACTIVITIES = [
-  { date: "2026-09-14", time: "10:00", title: "Koffee with Kenny", location: "Lodge" },
-  { date: "2026-09-14", time: "16:30", title: "Happy Hour", location: "Lodge" },
-  { date: "2026-09-15", time: "09:00", title: "Fitness Class", location: "Fitness Center" },
-  { date: "2026-09-16", time: "13:00", title: "Lifestyle Activity", location: "Lodge" },
-  { date: "2026-09-17", time: "18:00", title: "Card Club", location: "Activity Room" },
-  { date: "2026-09-18", time: "16:30", title: "Happy Hour", location: "Lodge" }
+const ACTIVITIES=[
+ {display:"hoa",date:"2026-09-14",start:"08:00",end:"23:59",title:"Weekly Community Reminder",details:"Add important Skyestone notices and upcoming dates here."},
+ {display:"social",date:"2026-09-14",start:"08:00",end:"23:59",title:"Social Information",details:"Add Lifestyle Activities, Happy Hours, outings and other social information here."},
+ {display:"fitness",date:"2026-09-14",start:"08:00",end:"23:59",title:"Fitness Information",details:"Add today's fitness classes, activities or facility notices here."}
 ];
-
-// Optional general information for the display.
-const INFO = [
-  ["Lodge", "Please check the resident website for current Lodge hours and facility information."],
-  ["Lifestyle Activities", "Have an idea for a Lifestyle Activity? Submit a Resident Request through skyestone.org."],
-  ["Reservations", "Conference Room and Fitness Room reservations are subject to current facility rules."],
-  ["Community", "Please check the Skyestone website and weekly reminders for the latest information."]
+const RESERVATIONS=[
+ // {room:"conference",date:"2026-09-15",start:"09:00",end:"10:30",title:"Board Meeting",reservedBy:"HOA"},
+ // {room:"fitness",date:"2026-09-15",start:"14:00",end:"15:00",title:"Private Class",reservedBy:"Resident"}
 ];
-
-const displayName = document.getElementById("displayName");
-const slidesEl = document.getElementById("slides");
-const clockEl = document.getElementById("clock");
-const dateEl = document.getElementById("date");
-const lastUpdatedEl = document.getElementById("lastUpdated");
-
-displayName.textContent = CONFIG.display;
-
-function pad(n) { return String(n).padStart(2, "0"); }
-function localISODate(d) {
-  return `${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(d.getDate())}`;
-}
-function parseDateTime(item) {
-  const [h,m] = item.time.split(":").map(Number);
-  const d = new Date(`${item.date}T00:00:00`);
-  d.setHours(h,m,0,0);
-  return d;
-}
-function formatTime(hhmm) {
-  const [h,m] = hhmm.split(":").map(Number);
-  if (CONFIG.timeFormat === "24-hour") return `${pad(h)}:${pad(m)}`;
-  const suffix = h >= 12 ? "PM" : "AM";
-  const hour = (h % 12) || 12;
-  return `${hour}:${pad(m)} ${suffix}`;
-}
-function formatLongDate(d) {
-  return new Intl.DateTimeFormat("en-US", {weekday:"long", month:"long", day:"numeric", year:"numeric"}).format(d);
-}
-function updateClock() {
-  const now = new Date();
-  clockEl.textContent = now.toLocaleTimeString("en-US", {hour:"numeric", minute:"2-digit"});
-  dateEl.textContent = formatLongDate(now);
-}
-function todayActivities() {
-  const now = new Date();
-  const today = localISODate(now);
-  return ACTIVITIES
-    .filter(a => a.date === today && parseDateTime(a) >= now)
-    .sort((a,b) => parseDateTime(a)-parseDateTime(b));
-}
-function nextDays() {
-  const now = new Date();
-  const today = localISODate(now);
-  const dates = [...new Set(ACTIVITIES.map(a => a.date))]
-    .filter(d => d > today)
-    .sort()
-    .slice(0, 3);
-  return dates.map(date => ({
-    date,
-    items: ACTIVITIES.filter(a => a.date === date).sort((a,b)=>parseDateTime(a)-parseDateTime(b))
-  }));
-}
-function makeActivity(item) {
-  return `<div class="activity">
-    <div class="time">${formatTime(item.time)}</div>
-    <div class="title">${escapeHTML(item.title)}</div>
-    <div class="location">${escapeHTML(item.location || "")}</div>
-  </div>`;
-}
-function escapeHTML(s) {
-  return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-}
-function buildSlides() {
-  const today = new Date();
-  const todayItems = todayActivities();
-  const upcoming = nextDays();
-  const slides = [];
-
-  slides.push(`
-    <section class="slide">
-      <div class="kicker">Today's Schedule</div>
-      <h1>${formatLongDate(today)}</h1>
-      <div class="activity-list">
-        ${todayItems.length ? todayItems.map(makeActivity).join("") : `<div class="empty">No remaining activities are scheduled for today.</div>`}
-      </div>
-    </section>
-  `);
-
-  upcoming.forEach(day => {
-    const d = new Date(`${day.date}T00:00:00`);
-    slides.push(`
-      <section class="slide">
-        <div class="kicker">Upcoming</div>
-        <h1>${formatLongDate(d)}</h1>
-        <div class="activity-list">${day.items.map(makeActivity).join("")}</div>
-      </section>
-    `);
-  });
-
-  slides.push(`
-    <section class="slide">
-      <div class="kicker">Community Information</div>
-      <h1>Skyestone</h1>
-      <div class="info-grid">
-        ${INFO.map(([h,p]) => `<div class="info-card"><h2>${escapeHTML(h)}</h2><p>${escapeHTML(p)}</p></div>`).join("")}
-      </div>
-    </section>
-  `);
-
-  slidesEl.innerHTML = slides.join("");
-  const allSlides = [...document.querySelectorAll(".slide")];
-  let index = 0;
-  allSlides[index]?.classList.add("active");
-
-  if (window.rotationTimer) clearInterval(window.rotationTimer);
-  window.rotationTimer = setInterval(() => {
-    if (!allSlides.length) return;
-    allSlides[index].classList.remove("active");
-    index = (index + 1) % allSlides.length;
-    allSlides[index].classList.add("active");
-  }, CONFIG.rotationSeconds * 1000);
-}
-
-updateClock();
-setInterval(updateClock, 1000);
-buildSlides();
-setInterval(buildSlides, CONFIG.refreshMinutes * 60 * 1000);
-lastUpdatedEl.textContent = "Display updates automatically";
+const CONFIG={hoa:{title:"HOA BUSINESS"},social:{title:"SOCIAL"},fitness:{title:"FITNESS"},"fitness-reservations":{title:"FITNESS ROOM RESERVATIONS",room:"fitness"},conference:{title:"CONFERENCE ROOM RESERVATIONS",room:"conference"}};
+const display=new URLSearchParams(location.search).get("display")||"hoa";const config=CONFIG[display]||CONFIG.hoa;document.getElementById("displayTitle").textContent=config.title;
+const pad=n=>String(n).padStart(2,"0"),dateKey=d=>`${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(d.getDate())}`;
+function dt(date,time){const [h,m]=time.split(":").map(Number),d=new Date(date+"T00:00:00");d.setHours(h,m,0,0);return d}
+function ft(t){const [h,m]=t.split(":").map(Number),d=new Date();d.setHours(h,m,0,0);return d.toLocaleTimeString([], {hour:"numeric",minute:"2-digit"})}
+function fd(s){return new Date(s+"T12:00:00").toLocaleDateString([], {weekday:"long",month:"long",day:"numeric"})}
+function clock(){const d=new Date();time.textContent=d.toLocaleTimeString([], {hour:"numeric",minute:"2-digit"});date.textContent=d.toLocaleDateString([], {weekday:"long",month:"long",day:"numeric"})}
+function general(){const now=new Date(),a=ACTIVITIES.filter(x=>x.display===display).map(x=>({...x,s:dt(x.date,x.start),e:dt(x.date,x.end)})).filter(x=>x.e>=now&&x.s>=now).sort((a,b)=>a.s-b.s),c=document.getElementById("content");if(!a.length){c.innerHTML='<div class="empty">No upcoming information at this time.</div>';return}const today=dateKey(now),t=a.filter(x=>x.date===today),f=a.filter(x=>x.date!==today);let h='<div class="slide">';if(t.length){h+='<div class="hero">TODAY</div><div class="card-grid">';t.forEach(x=>h+=`<div class="card"><div class="label">${ft(x.start)} – ${ft(x.end)}</div><div class="title">${x.title}</div><div class="details">${x.details||""}</div></div>`);h+='</div>'}if(f.length){h+=`<div style="height:3vh"></div><div class="subhero">UPCOMING</div><div class="card-grid">`;f.slice(0,4).forEach(x=>h+=`<div class="card"><div class="label">${fd(x.date)} · ${ft(x.start)}</div><div class="title">${x.title}</div><div class="details">${x.details||""}</div></div>`);h+='</div>'}c.innerHTML=h+'</div>'}
+function reservations(room){const now=new Date(),r=RESERVATIONS.filter(x=>x.room===room).map(x=>({...x,s:dt(x.date,x.start),e:dt(x.date,x.end)})).filter(x=>x.e>=now).sort((a,b)=>a.s-b.s),today=dateKey(now),cur=r.find(x=>x.date===today&&x.s<=now&&x.e>now),next=r.find(x=>x.s>now);let h='<div class="slide"><div class="reservation">';if(cur){h+=`<div class="room-status reserved">RESERVED</div><div class="res-name">${cur.title}</div><div class="res-time">${ft(cur.start)} – ${ft(cur.end)}</div>${cur.reservedBy?`<div class="subhero" style="margin-top:1.5vh">Reserved by ${cur.reservedBy}</div>`:""}`}else h+='<div class="room-status">AVAILABLE</div><div class="subhero">The room is currently available.</div>';h+=next?`<div class="next-box"><div class="label">NEXT RESERVATION · ${fd(next.date)}</div><div class="next-time"><strong>${ft(next.start)} – ${ft(next.end)}</strong> · ${next.title}</div>${next.reservedBy?`<div class="next-time">Reserved by ${next.reservedBy}</div>`:""}</div>`:'<div class="next-box"><div class="label">NEXT RESERVATION</div><div class="next-time">No upcoming reservations.</div></div>';document.getElementById("content").innerHTML=h+'</div></div>'}
+function render(){config.room?reservations(config.room):general();document.getElementById("lastUpdated").textContent="Updated "+new Date().toLocaleTimeString([], {hour:"numeric",minute:"2-digit"})}
+clock();render();setInterval(()=>{clock();render()},30000);
