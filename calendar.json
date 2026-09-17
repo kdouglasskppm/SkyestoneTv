@@ -1648,5 +1648,15 @@
     "title": "HOA Board Meeting",
     "details": "Location: Grand Room",
     "reservedBy": ""
+  },
+  {
+    "id": "178968318143603awnm",
+    "display": "hoa",
+    "date": "2026-09-18",
+    "start": "10:00",
+    "end": "11:00",
+    "title": "Board Executive Session",
+    "details": "",
+    "reservedBy": ""
   }
 ]
