@@ -1,29 +1,36 @@
 [
   {
+    "id": "1789657081916mc0iu8",
     "display": "hoa",
     "date": "2026-09-15",
     "start": "08:00",
     "end": "23:59",
     "title": "Weekly Community Reminder",
-    "details": "Add important Skyestone notices and upcoming dates here."
+    "details": "Add important Skyestone notices and upcoming dates here.",
+    "reservedBy": ""
   },
   {
+    "id": "1789657081916w3dxxx",
     "display": "social",
     "date": "2026-09-15",
     "start": "08:00",
     "end": "23:59",
     "title": "Test Social Activity",
-    "details": "Testing the new GitHub calendar system."
+    "details": "Testing the new GitHub calendar system.",
+    "reservedBy": ""
   },
   {
+    "id": "17896570819167r4t2i",
     "display": "fitness",
     "date": "2026-09-15",
     "start": "08:00",
     "end": "23:59",
     "title": "Fitness Information",
-    "details": "Add today's fitness classes, activities or facility notices here."
+    "details": "Add today's fitness classes, activities or facility notices here.",
+    "reservedBy": ""
   },
   {
+    "id": "1789657081916uxyq1a",
     "display": "conference",
     "date": "2026-09-15",
     "start": "14:00",
@@ -33,6 +40,7 @@
     "reservedBy": "Kenny"
   },
   {
+    "id": "1789657081916vpc4c2",
     "display": "fitness-reservations",
     "date": "2026-09-15",
     "start": "16:00",
@@ -40,5 +48,15 @@
     "title": "Test Fitness Room Reservation",
     "details": "Testing the fitness room reservation display.",
     "reservedBy": "Kenny"
+  },
+  {
+    "id": "1789657108085g2l4g6",
+    "display": "hoa",
+    "date": "2026-09-17",
+    "start": "00:58",
+    "end": "13:58",
+    "title": "few",
+    "details": "fea",
+    "reservedBy": "feq"
   }
 ]
