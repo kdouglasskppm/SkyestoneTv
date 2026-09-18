@@ -28,7 +28,6 @@ const display =
   new URLSearchParams(location.search).get("display") || "hoa";
 
 const config = CONFIG[display] || CONFIG.hoa;
-
 document.getElementById("displayTitle").textContent = config.title;
 
 let ACTIVITIES = [];
@@ -53,7 +52,6 @@ function ft(t) {
   const d = new Date();
 
   d.setHours(h, m, 0, 0);
-
   return d.toLocaleTimeString([], {
     hour: "numeric",
     minute: "2-digit"
@@ -76,13 +74,54 @@ function clock() {
       hour: "numeric",
       minute: "2-digit"
     });
-
   document.getElementById("date").textContent =
     d.toLocaleDateString([], {
       weekday: "long",
       month: "long",
       day: "numeric"
     });
+}
+
+/*
+  SCREEN BURN-IN PROTECTION
+  Every five minutes the entire TV interface moves to a
+  different subtle position. The movement is small enough
+  to remain unobtrusive while preventing static elements
+  from staying on exactly the same pixels continuously.
+*/
+const BURN_IN_POSITIONS = [
+  [-0.5, -0.5],
+  [ 0.0, -0.5],
+  [ 0.5, -0.5],
+  [ 0.5,  0.0],
+  [ 0.5,  0.5],
+  [ 0.0,  0.5],
+  [-0.5,  0.5],
+  [-0.5,  0.0],
+  [ 0.0,  0.0]
+];
+
+let burnInPositionIndex = 8;
+
+function moveScreenForBurnIn() {
+  const app = document.getElementById("app");
+  if (!app) return;
+
+  let nextIndex = Math.floor(Math.random() * BURN_IN_POSITIONS.length);
+
+  // Avoid immediately choosing the same position.
+  if (BURN_IN_POSITIONS.length > 1) {
+    while (nextIndex === burnInPositionIndex) {
+      nextIndex = Math.floor(Math.random() * BURN_IN_POSITIONS.length);
+    }
+  }
+
+  burnInPositionIndex = nextIndex;
+
+  const [x, y] = BURN_IN_POSITIONS[burnInPositionIndex];
+
+  app.style.setProperty("--burnin-x", `${x}vw`);
+  app.style.setProperty("--burnin-y", `${y}vh`);
 }
 
 function general() {
@@ -95,7 +134,6 @@ function general() {
       s: dt(x.date, x.start),
       e: dt(x.date, x.end)
     }))
-    // Keep activities visible until they actually end.
     .filter(x => x.e >= now)
     .sort((a, b) => a.s - b.s);
 
@@ -119,7 +157,6 @@ function general() {
     h +=
       '<div class="hero">TODAY</div>' +
       '<div class="card-grid">';
-
     t.forEach(x => {
       h += `
         <div class="card">
@@ -138,7 +175,6 @@ function general() {
       '<div style="height:3vh"></div>' +
       '<div class="subhero">UPCOMING</div>' +
       '<div class="card-grid">';
-
     f.slice(0, 4).forEach(x => {
       h += `
         <div class="card">
@@ -163,7 +199,6 @@ function reservations(room) {
   const r = ACTIVITIES
     .filter(x => {
       const d = x.display.toLowerCase();
-
       if (room === "conference") {
         return d === "conference";
       }
@@ -190,7 +225,6 @@ function reservations(room) {
       x.s <= now &&
       x.e > now
   );
-
   const next = r.find(x => x.s > now);
 
   let h = '<div class="slide"><div class="reservation">';
@@ -230,7 +264,6 @@ function reservations(room) {
           <strong>${ft(next.start)} – ${ft(next.end)}</strong>
           · ${next.title}
         </div>
-
         ${
           next.reservedBy
             ? `<div class="next-time">
@@ -277,7 +310,6 @@ async function loadCalendar() {
     }
 
     ACTIVITIES = await response.json();
-
     render();
 
   } catch (error) {
@@ -290,6 +322,7 @@ async function loadCalendar() {
 
 clock();
 loadCalendar();
+moveScreenForBurnIn();
 
 setInterval(() => {
   clock();
@@ -299,3 +332,11 @@ setInterval(() => {
 setInterval(() => {
   loadCalendar();
 }, 60000);
+
+/*
+  Move the entire interface every five minutes.
+  The CSS transition makes the change gradual rather than abrupt.
+*/
+setInterval(() => {
+  moveScreenForBurnIn();
+}, 5 * 60 * 1000);
