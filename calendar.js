@@ -124,11 +124,16 @@ function moveScreenForBurnIn() {
   app.style.setProperty("--burnin-y", `${y}vh`);
 }
 
+function itemDisplays(item) {
+  if (Array.isArray(item.display)) return item.display.map(v => String(v).toLowerCase());
+  return item.display ? [String(item.display).toLowerCase()] : [];
+}
+
 function general() {
   const now = new Date();
 
   const a = ACTIVITIES
-    .filter(x => x.display.toLowerCase() === display.toLowerCase())
+    .filter(x => itemDisplays(x).includes(display.toLowerCase()))
     .map(x => ({
       ...x,
       s: dt(x.date, x.start),
@@ -198,13 +203,13 @@ function reservations(room) {
 
   const r = ACTIVITIES
     .filter(x => {
-      const d = x.display.toLowerCase();
+      const displays = itemDisplays(x);
       if (room === "conference") {
-        return d === "conference";
+        return displays.includes("conference");
       }
 
       if (room === "fitness") {
-        return d === "fitness-reservations";
+        return displays.includes("fitness-reservations");
       }
 
       return false;
