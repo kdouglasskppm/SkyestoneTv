@@ -1484,12 +1484,14 @@
   },
   {
     "id": "1789679390155zvy3hs",
-    "display": "fitness",
+    "display": [
+      "fitness"
+    ],
     "date": "2026-09-28",
     "start": "09:00",
     "end": "10:00",
     "title": "PEP*",
-    "details": "Location: Fitness Center",
+    "details": "Location: Grand Room",
     "reservedBy": ""
   },
   {
@@ -1604,17 +1606,22 @@
   },
   {
     "id": "17896793901558gug3i",
-    "display": "social",
+    "display": [
+      "social"
+    ],
     "date": "2026-09-30",
     "start": "09:00",
     "end": "09:45",
     "title": "Taiji Fit",
-    "details": "Location: Lodge",
+    "details": "Location: Grand Room",
     "reservedBy": ""
   },
   {
     "id": "1789679390155ghzkpl",
-    "display": "social",
+    "display": [
+      "social",
+      "conference"
+    ],
     "date": "2026-09-30",
     "start": "10:00",
     "end": "13:00",
