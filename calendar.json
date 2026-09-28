@@ -156,5 +156,18 @@
     "title": "Energy Management Committee",
     "details": "",
     "reservedBy": ""
+  },
+  {
+    "id": "1790620808123r8gy8r",
+    "display": [
+      "hoa",
+      "conference"
+    ],
+    "date": "2026-09-29",
+    "start": "13:00",
+    "end": "14:00",
+    "title": "FCIC - HVAC Meeting",
+    "details": "",
+    "reservedBy": ""
   }
 ]
