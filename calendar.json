@@ -1725,5 +1725,18 @@
     "title": "Euchre",
     "details": "Location: Lodge",
     "reservedBy": ""
+  },
+  {
+    "id": "17913098379189mmjwm",
+    "display": [
+      "hoa",
+      "conference"
+    ],
+    "date": "2026-10-12",
+    "start": "21:00",
+    "end": "23:00",
+    "title": "AV Discussion",
+    "details": "Location: Conference Room",
+    "reservedBy": ""
   }
 ]
