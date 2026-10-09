@@ -1738,5 +1738,18 @@
     "title": "AV Discussion",
     "details": "Location: Conference Room",
     "reservedBy": ""
+  },
+  {
+    "id": "17915575775423i2yio",
+    "display": [
+      "hoa",
+      "conference"
+    ],
+    "date": "2026-10-12",
+    "start": "08:00",
+    "end": "09:00",
+    "title": "Av Meeting",
+    "details": "Location: Conference Room",
+    "reservedBy": ""
   }
 ]
