@@ -1754,5 +1754,1622 @@
     "title": "Av Meeting",
     "details": "Location: Conference Room",
     "reservedBy": ""
+  },
+  {
+    "id": "17934008993761msilq",
+    "display": [
+      "fitness"
+    ],
+    "date": "2026-11-02",
+    "start": "09:00",
+    "end": "10:00",
+    "title": "PEP*",
+    "details": "Location: Grand Room",
+    "reservedBy": ""
+  },
+  {
+    "id": "179340089937615xde0",
+    "display": [
+      "fitness"
+    ],
+    "date": "2026-11-02",
+    "start": "10:00",
+    "end": "11:25",
+    "title": "Work It Circuit",
+    "details": "Location: Fitness Center",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793400899376s4k6fh",
+    "display": [
+      "fitness"
+    ],
+    "date": "2026-11-03",
+    "start": "09:00",
+    "end": "10:00",
+    "title": "SCB",
+    "details": "Location: Fitness Center",
+    "reservedBy": ""
+  },
+  {
+    "id": "17934008993768ckuis",
+    "display": [
+      "fitness"
+    ],
+    "date": "2026-11-03",
+    "start": "13:00",
+    "end": "14:00",
+    "title": "GSCB",
+    "details": "Gentle Strength, Conditioning &amp; Balance with Chairs\nLocation: Fitness Center",
+    "reservedBy": ""
+  },
+  {
+    "id": "17934008993768spq04",
+    "display": [
+      "fitness"
+    ],
+    "date": "2026-11-04",
+    "start": "08:30",
+    "end": "09:30",
+    "title": "SCB",
+    "details": "Location: Fitness Center",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793400899376o6q353",
+    "display": [
+      "fitness"
+    ],
+    "date": "2026-11-04",
+    "start": "09:00",
+    "end": "09:45",
+    "title": "Taiji Fit",
+    "details": "Location: Lodge",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793400899376raehpi",
+    "display": [
+      "fitness"
+    ],
+    "date": "2026-11-04",
+    "start": "10:00",
+    "end": "11:25",
+    "title": "Work It Circuit",
+    "details": "Location: Fitness Center",
+    "reservedBy": ""
+  },
+  {
+    "id": "179340089937642w8vb",
+    "display": [
+      "fitness"
+    ],
+    "date": "2026-11-05",
+    "start": "09:00",
+    "end": "10:00",
+    "title": "SCB",
+    "details": "Location: Fitness Center",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793400899376t2uqtk",
+    "display": [
+      "fitness"
+    ],
+    "date": "2026-11-05",
+    "start": "13:00",
+    "end": "14:00",
+    "title": "GSCB",
+    "details": "Gentle Strength, Conditioning &amp; Balance with Chairs\nLocation: Fitness Center",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793400899376fnyjl5",
+    "display": [
+      "fitness"
+    ],
+    "date": "2026-11-06",
+    "start": "10:00",
+    "end": "11:25",
+    "title": "Work It Circuit",
+    "details": "Location: Fitness Center",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793400899376lrpo8e",
+    "display": [
+      "fitness"
+    ],
+    "date": "2026-11-09",
+    "start": "09:00",
+    "end": "10:00",
+    "title": "PEP*",
+    "details": "Location: Grand Room",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793400899376bolor3",
+    "display": [
+      "fitness"
+    ],
+    "date": "2026-11-09",
+    "start": "10:00",
+    "end": "11:25",
+    "title": "Work It Circuit",
+    "details": "Location: Fitness Center",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793400899376xb11kg",
+    "display": [
+      "fitness"
+    ],
+    "date": "2026-11-10",
+    "start": "09:00",
+    "end": "10:00",
+    "title": "SCB",
+    "details": "Location: Fitness Center",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793400899376d3v5ag",
+    "display": [
+      "fitness"
+    ],
+    "date": "2026-11-10",
+    "start": "13:00",
+    "end": "14:00",
+    "title": "GSCB",
+    "details": "Gentle Strength, Conditioning &amp; Balance with Chairs\nLocation: Fitness Center",
+    "reservedBy": ""
+  },
+  {
+    "id": "17934008993763lpf52",
+    "display": [
+      "fitness"
+    ],
+    "date": "2026-11-11",
+    "start": "08:30",
+    "end": "09:30",
+    "title": "SCB",
+    "details": "Location: Fitness Center",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793400899376zru7kw",
+    "display": [
+      "fitness"
+    ],
+    "date": "2026-11-11",
+    "start": "09:00",
+    "end": "09:45",
+    "title": "Taiji Fit",
+    "details": "Location: Lodge",
+    "reservedBy": ""
+  },
+  {
+    "id": "17934008993765g74mt",
+    "display": [
+      "fitness"
+    ],
+    "date": "2026-11-11",
+    "start": "10:00",
+    "end": "11:25",
+    "title": "Work It Circuit",
+    "details": "Location: Fitness Center",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793400899376pkfrf4",
+    "display": [
+      "fitness"
+    ],
+    "date": "2026-11-12",
+    "start": "09:00",
+    "end": "10:00",
+    "title": "SCB",
+    "details": "Location: Fitness Center",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793400899376rlxzf6",
+    "display": [
+      "fitness"
+    ],
+    "date": "2026-11-12",
+    "start": "13:00",
+    "end": "14:00",
+    "title": "GSCB",
+    "details": "Gentle Strength, Conditioning &amp; Balance with Chairs\nLocation: Fitness Center",
+    "reservedBy": ""
+  },
+  {
+    "id": "17934008993760is6eo",
+    "display": [
+      "fitness"
+    ],
+    "date": "2026-11-13",
+    "start": "10:00",
+    "end": "11:25",
+    "title": "Work It Circuit",
+    "details": "Location: Fitness Center",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793400899376iaxbj4",
+    "display": [
+      "fitness"
+    ],
+    "date": "2026-11-16",
+    "start": "09:00",
+    "end": "10:00",
+    "title": "PEP*",
+    "details": "Location: Grand Room",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793400899376q979gm",
+    "display": [
+      "fitness"
+    ],
+    "date": "2026-11-16",
+    "start": "10:00",
+    "end": "11:25",
+    "title": "Work It Circuit",
+    "details": "Location: Fitness Center",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793400899376x07uts",
+    "display": [
+      "fitness"
+    ],
+    "date": "2026-11-17",
+    "start": "09:00",
+    "end": "10:00",
+    "title": "SCB",
+    "details": "Location: Fitness Center",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793400899376use8iq",
+    "display": [
+      "fitness"
+    ],
+    "date": "2026-11-17",
+    "start": "13:00",
+    "end": "14:00",
+    "title": "GSCB",
+    "details": "Gentle Strength, Conditioning &amp; Balance with Chairs\nLocation: Fitness Center",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793400899376ta57ll",
+    "display": [
+      "fitness"
+    ],
+    "date": "2026-11-18",
+    "start": "08:30",
+    "end": "09:30",
+    "title": "SCB",
+    "details": "Location: Fitness Center",
+    "reservedBy": ""
+  },
+  {
+    "id": "17934008993763gr4k3",
+    "display": [
+      "fitness"
+    ],
+    "date": "2026-11-18",
+    "start": "09:00",
+    "end": "09:45",
+    "title": "Taiji Fit",
+    "details": "Location: Lodge",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793400899376weu0wa",
+    "display": [
+      "fitness"
+    ],
+    "date": "2026-11-18",
+    "start": "10:00",
+    "end": "11:25",
+    "title": "Work It Circuit",
+    "details": "Location: Fitness Center",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793400899376cmghqy",
+    "display": [
+      "fitness"
+    ],
+    "date": "2026-11-19",
+    "start": "09:00",
+    "end": "10:00",
+    "title": "SCB",
+    "details": "Location: Fitness Center",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793400899376l7gv9z",
+    "display": [
+      "fitness"
+    ],
+    "date": "2026-11-19",
+    "start": "13:00",
+    "end": "14:00",
+    "title": "GSCB",
+    "details": "Gentle Strength, Conditioning &amp; Balance with Chairs\nLocation: Fitness Center",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793400899376nxakne",
+    "display": [
+      "fitness"
+    ],
+    "date": "2026-11-20",
+    "start": "10:00",
+    "end": "11:25",
+    "title": "Work It Circuit",
+    "details": "Location: Fitness Center",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793400899376jn2s0a",
+    "display": [
+      "fitness"
+    ],
+    "date": "2026-11-23",
+    "start": "09:00",
+    "end": "10:00",
+    "title": "PEP*",
+    "details": "Location: Grand Room",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793400899376gl43uv",
+    "display": [
+      "fitness"
+    ],
+    "date": "2026-11-23",
+    "start": "10:00",
+    "end": "11:25",
+    "title": "Work It Circuit",
+    "details": "Location: Fitness Center",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793400899376oh52al",
+    "display": [
+      "fitness"
+    ],
+    "date": "2026-11-24",
+    "start": "09:00",
+    "end": "10:00",
+    "title": "SCB",
+    "details": "Location: Fitness Center",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793400899376nwmaep",
+    "display": [
+      "fitness"
+    ],
+    "date": "2026-11-24",
+    "start": "13:00",
+    "end": "14:00",
+    "title": "GSCB",
+    "details": "Gentle Strength, Conditioning &amp; Balance with Chairs\nLocation: Fitness Center",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793400899376dinmxz",
+    "display": [
+      "fitness"
+    ],
+    "date": "2026-11-25",
+    "start": "08:30",
+    "end": "09:30",
+    "title": "SCB",
+    "details": "Location: Fitness Center",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793400899376vhzin9",
+    "display": [
+      "fitness"
+    ],
+    "date": "2026-11-25",
+    "start": "09:00",
+    "end": "09:45",
+    "title": "Taiji Fit",
+    "details": "Location: Lodge",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793400899376kshmux",
+    "display": [
+      "fitness"
+    ],
+    "date": "2026-11-25",
+    "start": "10:00",
+    "end": "11:25",
+    "title": "Work It Circuit",
+    "details": "Location: Fitness Center",
+    "reservedBy": ""
+  },
+  {
+    "id": "17934008993767v9l7t",
+    "display": [
+      "fitness"
+    ],
+    "date": "2026-11-26",
+    "start": "09:00",
+    "end": "10:00",
+    "title": "SCB",
+    "details": "Location: Fitness Center",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793400899376rw66zj",
+    "display": [
+      "fitness"
+    ],
+    "date": "2026-11-26",
+    "start": "13:00",
+    "end": "14:00",
+    "title": "GSCB",
+    "details": "Gentle Strength, Conditioning &amp; Balance with Chairs\nLocation: Fitness Center",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793400899376e0tfnh",
+    "display": [
+      "fitness"
+    ],
+    "date": "2026-11-27",
+    "start": "10:00",
+    "end": "11:25",
+    "title": "Work It Circuit",
+    "details": "Location: Fitness Center",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793400899376a286u6",
+    "display": [
+      "fitness"
+    ],
+    "date": "2026-11-30",
+    "start": "09:00",
+    "end": "10:00",
+    "title": "PEP*",
+    "details": "Location: Grand Room",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793400899376lj0t1m",
+    "display": [
+      "fitness"
+    ],
+    "date": "2026-11-30",
+    "start": "10:00",
+    "end": "11:25",
+    "title": "Work It Circuit",
+    "details": "Location: Fitness Center",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793400993674b2qw88",
+    "display": [
+      "social"
+    ],
+    "date": "2026-11-01",
+    "start": "14:00",
+    "end": "18:00",
+    "title": "Sports Watching Club",
+    "details": "Location: Grand Room",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793400993674bokvmr",
+    "display": [
+      "social"
+    ],
+    "date": "2026-11-02",
+    "start": "10:30",
+    "end": "12:00",
+    "title": "Line Dancing",
+    "details": "Location: Grand Room",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793400993674m6zc68",
+    "display": [
+      "social"
+    ],
+    "date": "2026-11-02",
+    "start": "13:00",
+    "end": "15:00",
+    "title": "Queen of Hearts Bridge and Coloring 101",
+    "details": "Location: Lodge - Grand Room",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793400993674qzaf0d",
+    "display": [
+      "social"
+    ],
+    "date": "2026-11-02",
+    "start": "18:30",
+    "end": "21:30",
+    "title": "Hand and Foot",
+    "details": "Location: Lodge",
+    "reservedBy": ""
+  },
+  {
+    "id": "17934009936748k0iet",
+    "display": [
+      "social"
+    ],
+    "date": "2026-11-02",
+    "start": "19:00",
+    "end": "21:00",
+    "title": "Billiards",
+    "details": "Location: Lodge",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793400993674qf7o11",
+    "display": [
+      "social"
+    ],
+    "date": "2026-11-03",
+    "start": "10:00",
+    "end": "11:30",
+    "title": "Warm Hearts Warm Babies*",
+    "details": "Location: Grand Room",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793400993674mw1497",
+    "display": [
+      "social"
+    ],
+    "date": "2026-11-03",
+    "start": "13:00",
+    "end": "16:00",
+    "title": "Mahjong",
+    "details": "Location: Grand Room",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793400993674tzeb6p",
+    "display": [
+      "social"
+    ],
+    "date": "2026-11-04",
+    "start": "13:00",
+    "end": "15:00",
+    "title": "Canasta",
+    "details": "Location: Grand Room",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793400993674yheage",
+    "display": [
+      "social"
+    ],
+    "date": "2026-11-04",
+    "start": "18:30",
+    "end": "21:30",
+    "title": "Stoners Bridge",
+    "details": "Location: Lodge",
+    "reservedBy": ""
+  },
+  {
+    "id": "17934009936744hquak",
+    "display": [
+      "social"
+    ],
+    "date": "2026-11-05",
+    "start": "10:30",
+    "end": "12:00",
+    "title": "Lifestyle - Transitions Senior Care",
+    "details": "Location: Grand Room",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793400993674k9vw4n",
+    "display": [
+      "social",
+      "conference"
+    ],
+    "date": "2026-11-05",
+    "start": "11:00",
+    "end": "13:00",
+    "title": "Knit & Crochet",
+    "details": "Location: Conference Room",
+    "reservedBy": ""
+  },
+  {
+    "id": "17934009936743wuocb",
+    "display": [
+      "social"
+    ],
+    "date": "2026-11-05",
+    "start": "13:00",
+    "end": "15:00",
+    "title": "Scrabblers",
+    "details": "Location: Grand Room",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793400993674gu69mo",
+    "display": [
+      "social"
+    ],
+    "date": "2026-11-06",
+    "start": "13:00",
+    "end": "15:00",
+    "title": "Euchre",
+    "details": "Location: Lodge",
+    "reservedBy": ""
+  },
+  {
+    "id": "17934009936745c897l",
+    "display": [
+      "social"
+    ],
+    "date": "2026-11-06",
+    "start": "18:00",
+    "end": "20:00",
+    "title": "Bingo",
+    "details": "Location: Lodge - Grand Room & Conference Room",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793400993674ngiiez",
+    "display": [
+      "social"
+    ],
+    "date": "2026-11-08",
+    "start": "10:30",
+    "end": "14:30",
+    "title": "Sports Watching Club",
+    "details": "Location: Grand Room",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793400993674mdcld6",
+    "display": [
+      "social"
+    ],
+    "date": "2026-11-09",
+    "start": "10:30",
+    "end": "12:00",
+    "title": "Line Dancing",
+    "details": "Location: Grand Room",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793400993674w4bgex",
+    "display": [
+      "social"
+    ],
+    "date": "2026-11-09",
+    "start": "13:00",
+    "end": "15:00",
+    "title": "Queen of Hearts Bridge and Coloring 101",
+    "details": "Location: Lodge - Grand Room",
+    "reservedBy": ""
+  },
+  {
+    "id": "179340099367476nr0i",
+    "display": [
+      "social"
+    ],
+    "date": "2026-11-09",
+    "start": "18:30",
+    "end": "21:30",
+    "title": "Hand and Foot",
+    "details": "Location: Lodge",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793400993674964suf",
+    "display": [
+      "social"
+    ],
+    "date": "2026-11-09",
+    "start": "19:00",
+    "end": "21:00",
+    "title": "Billiards",
+    "details": "Location: Lodge",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793400993674feccvs",
+    "display": [
+      "social",
+      "conference"
+    ],
+    "date": "2026-11-10",
+    "start": "09:30",
+    "end": "11:30",
+    "title": "Hearing Clinic*",
+    "details": "Location: Conference Room",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793400993674rdcwf4",
+    "display": [
+      "social",
+      "conference"
+    ],
+    "date": "2026-11-10",
+    "start": "10:00",
+    "end": "11:30",
+    "title": "Fabric Arts and Quilting*",
+    "details": "Location: Grand Room",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793400993674r4zbsw",
+    "display": [
+      "social"
+    ],
+    "date": "2026-11-10",
+    "start": "13:00",
+    "end": "16:00",
+    "title": "Mahjong",
+    "details": "Location: Grand Room",
+    "reservedBy": ""
+  },
+  {
+    "id": "17934009936740vdjc6",
+    "display": [
+      "social"
+    ],
+    "date": "2026-11-10",
+    "start": "18:30",
+    "end": "19:30",
+    "title": "Skyestone Travel Club",
+    "details": "Location: Grand Room",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793400993674offuet",
+    "display": [
+      "social"
+    ],
+    "date": "2026-11-11",
+    "start": "11:00",
+    "end": "12:30",
+    "title": "Skyestone Connects",
+    "details": "Location: Grand Room",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793400993674a413qs",
+    "display": [
+      "social"
+    ],
+    "date": "2026-11-11",
+    "start": "13:00",
+    "end": "15:00",
+    "title": "Canasta",
+    "details": "Location: Grand Room",
+    "reservedBy": ""
+  },
+  {
+    "id": "17934009936746hyl0m",
+    "display": [
+      "social"
+    ],
+    "date": "2026-11-11",
+    "start": "18:30",
+    "end": "21:30",
+    "title": "Stoners Bridge",
+    "details": "Location: Lodge",
+    "reservedBy": ""
+  },
+  {
+    "id": "17934009936749jro7d",
+    "display": [
+      "social",
+      "conference"
+    ],
+    "date": "2026-11-12",
+    "start": "11:00",
+    "end": "13:00",
+    "title": "Knit & Crochet",
+    "details": "Location: Conference Room",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793400993674ekhtjk",
+    "display": [
+      "social"
+    ],
+    "date": "2026-11-12",
+    "start": "13:00",
+    "end": "15:00",
+    "title": "Scrabblers",
+    "details": "Location: Grand Room",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793400993674nupr85",
+    "display": [
+      "social"
+    ],
+    "date": "2026-11-12",
+    "start": "17:00",
+    "end": "19:00",
+    "title": "Community Social",
+    "details": "Location: Grand Room, Conf Room, Patio",
+    "reservedBy": ""
+  },
+  {
+    "id": "17934009936744x0nt6",
+    "display": [
+      "social"
+    ],
+    "date": "2026-11-13",
+    "start": "13:00",
+    "end": "15:00",
+    "title": "Euchre",
+    "details": "Location: Lodge",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793400993674kcspm0",
+    "display": [
+      "social"
+    ],
+    "date": "2026-11-13",
+    "start": "19:00",
+    "end": "22:00",
+    "title": "Texas Hold'Em Poker",
+    "details": "Location: Grand Room",
+    "reservedBy": ""
+  },
+  {
+    "id": "17934009936749jfwp5",
+    "display": [
+      "social"
+    ],
+    "date": "2026-11-15",
+    "start": "14:00",
+    "end": "16:00",
+    "title": "Music Club",
+    "details": "Location: Grand Room",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793400993674vk0ytj",
+    "display": [
+      "social"
+    ],
+    "date": "2026-11-15",
+    "start": "18:00",
+    "end": "21:00",
+    "title": "Partner's Bridge",
+    "details": "Location: Grand Room",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793400993674gsyt59",
+    "display": [
+      "social"
+    ],
+    "date": "2026-11-16",
+    "start": "10:30",
+    "end": "12:00",
+    "title": "Line Dancing",
+    "details": "Location: Grand Room",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793400993674drojr8",
+    "display": [
+      "social"
+    ],
+    "date": "2026-11-16",
+    "start": "13:00",
+    "end": "15:00",
+    "title": "Queen of Hearts Bridge and Coloring 101",
+    "details": "Location: Lodge - Grand Room",
+    "reservedBy": ""
+  },
+  {
+    "id": "17934009936746d8w24",
+    "display": [
+      "social"
+    ],
+    "date": "2026-11-16",
+    "start": "16:30",
+    "end": "18:15",
+    "title": "Elkhorn Rd Meet Up",
+    "details": "Location: Grand Room",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793400993674xuavah",
+    "display": [
+      "social"
+    ],
+    "date": "2026-11-16",
+    "start": "18:30",
+    "end": "21:30",
+    "title": "Hand and Foot",
+    "details": "Location: Lodge",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793400993674l6w7w3",
+    "display": [
+      "social"
+    ],
+    "date": "2026-11-16",
+    "start": "19:00",
+    "end": "21:00",
+    "title": "Billiards",
+    "details": "Location: Lodge",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793400993674lgz3cv",
+    "display": [
+      "social"
+    ],
+    "date": "2026-11-17",
+    "start": "13:00",
+    "end": "16:00",
+    "title": "Mahjong",
+    "details": "Location: Grand Room",
+    "reservedBy": ""
+  },
+  {
+    "id": "17934009936747i0j2z",
+    "display": [
+      "social"
+    ],
+    "date": "2026-11-17",
+    "start": "16:30",
+    "end": "17:30",
+    "title": "Koffee with Kenny",
+    "details": "Location: Grand Room",
+    "reservedBy": ""
+  },
+  {
+    "id": "17934009936744y5b1d",
+    "display": [
+      "social"
+    ],
+    "date": "2026-11-17",
+    "start": "18:30",
+    "end": "21:30",
+    "title": "Stoners Bridge",
+    "details": "Location: Lodge",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793400993674xb52hy",
+    "display": [
+      "social"
+    ],
+    "date": "2026-11-18",
+    "start": "13:00",
+    "end": "15:00",
+    "title": "Canasta",
+    "details": "Location: Grand Room",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793400993674h8zz0j",
+    "display": [
+      "social",
+      "conference"
+    ],
+    "date": "2026-11-19",
+    "start": "11:00",
+    "end": "13:00",
+    "title": "Knit & Crochet",
+    "details": "Location: Conference Room",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793400993674ypyjsx",
+    "display": [
+      "social"
+    ],
+    "date": "2026-11-19",
+    "start": "13:00",
+    "end": "15:00",
+    "title": "Scrabblers",
+    "details": "Location: Grand Room",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793400993674ynw35y",
+    "display": [
+      "social"
+    ],
+    "date": "2026-11-19",
+    "start": "16:00",
+    "end": "18:00",
+    "title": "Book Club",
+    "details": "Location: Grand Room and Conference Room",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793400993674i2uvep",
+    "display": [
+      "social"
+    ],
+    "date": "2026-11-19",
+    "start": "18:00",
+    "end": "20:00",
+    "title": "SAL Gals",
+    "details": "Location: Grand Room",
+    "reservedBy": ""
+  },
+  {
+    "id": "17934009936743oa39u",
+    "display": [
+      "social"
+    ],
+    "date": "2026-11-20",
+    "start": "13:00",
+    "end": "15:00",
+    "title": "Euchre",
+    "details": "Location: Lodge",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793400993674pnnoie",
+    "display": [
+      "social"
+    ],
+    "date": "2026-11-20",
+    "start": "18:00",
+    "end": "22:00",
+    "title": "Game Night Club",
+    "details": "Location: Grand Room",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793400993674yeih0e",
+    "display": [
+      "social"
+    ],
+    "date": "2026-11-21",
+    "start": "10:00",
+    "end": "11:30",
+    "title": "Skyestone Caregivers Support Group",
+    "details": "Location: Conference Room",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793400993674d61r61",
+    "display": [
+      "social"
+    ],
+    "date": "2026-11-22",
+    "start": "14:00",
+    "end": "18:00",
+    "title": "Sports Watching Club",
+    "details": "Location: Grand Room",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793400993674hgsozk",
+    "display": [
+      "social"
+    ],
+    "date": "2026-11-23",
+    "start": "10:30",
+    "end": "12:00",
+    "title": "Line Dancing",
+    "details": "Location: Grand Room",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793400993674xj7ecu",
+    "display": [
+      "social"
+    ],
+    "date": "2026-11-23",
+    "start": "13:00",
+    "end": "15:00",
+    "title": "Queen of Hearts Bridge and Coloring 101",
+    "details": "Location: Lodge - Grand Room",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793400993674680sk9",
+    "display": [
+      "social"
+    ],
+    "date": "2026-11-23",
+    "start": "18:30",
+    "end": "21:30",
+    "title": "Hand and Foot",
+    "details": "Location: Lodge",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793400993674zsfmos",
+    "display": [
+      "social"
+    ],
+    "date": "2026-11-23",
+    "start": "19:00",
+    "end": "21:00",
+    "title": "Billiards",
+    "details": "Location: Lodge",
+    "reservedBy": ""
+  },
+  {
+    "id": "17934009936749whc58",
+    "display": [
+      "social"
+    ],
+    "date": "2026-11-24",
+    "start": "13:00",
+    "end": "16:00",
+    "title": "Mahjong",
+    "details": "Location: Grand Room",
+    "reservedBy": ""
+  },
+  {
+    "id": "17934009936740l4rbp",
+    "display": [
+      "social"
+    ],
+    "date": "2026-11-25",
+    "start": "13:00",
+    "end": "15:00",
+    "title": "Canasta",
+    "details": "Location: Grand Room",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793400993674g1kmhy",
+    "display": [
+      "social"
+    ],
+    "date": "2026-11-25",
+    "start": "18:30",
+    "end": "21:30",
+    "title": "Stoners Bridge",
+    "details": "Location: Grand Room",
+    "reservedBy": ""
+  },
+  {
+    "id": "17934009936743xj6t9",
+    "display": [
+      "social",
+      "conference"
+    ],
+    "date": "2026-11-26",
+    "start": "11:00",
+    "end": "13:00",
+    "title": "Knit & Crochet",
+    "details": "Location: Conference Room",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793400993674y287ht",
+    "display": [
+      "social"
+    ],
+    "date": "2026-11-26",
+    "start": "13:00",
+    "end": "15:00",
+    "title": "Scrabblers",
+    "details": "Location: Grand Room",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793400993674ap67dr",
+    "display": [
+      "social"
+    ],
+    "date": "2026-11-27",
+    "start": "13:00",
+    "end": "15:00",
+    "title": "Euchre",
+    "details": "Location: Lodge",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793400993674eo49je",
+    "display": [
+      "social"
+    ],
+    "date": "2026-11-28",
+    "start": "09:00",
+    "end": "11:00",
+    "title": "Men's Coffee",
+    "details": "Location: Grand Room",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793400993674cg6a7d",
+    "display": [
+      "social"
+    ],
+    "date": "2026-11-30",
+    "start": "10:30",
+    "end": "12:00",
+    "title": "Line Dancing",
+    "details": "Location: Grand Room",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793400993674thao22",
+    "display": [
+      "social"
+    ],
+    "date": "2026-11-30",
+    "start": "13:00",
+    "end": "15:00",
+    "title": "Queen of Hearts Bridge and Coloring 101",
+    "details": "Location: Lodge - Grand Room",
+    "reservedBy": ""
+  },
+  {
+    "id": "17934009936740dr4yg",
+    "display": [
+      "social"
+    ],
+    "date": "2026-11-30",
+    "start": "18:30",
+    "end": "21:30",
+    "title": "Hand and Foot",
+    "details": "Location: Lodge",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793400993674jbz8cu",
+    "display": [
+      "social"
+    ],
+    "date": "2026-11-30",
+    "start": "19:00",
+    "end": "21:00",
+    "title": "Billiards",
+    "details": "Location: Lodge",
+    "reservedBy": ""
+  },
+  {
+    "id": "179340112092371rtst",
+    "display": [
+      "hoa"
+    ],
+    "date": "2026-11-02",
+    "start": "09:00",
+    "end": "17:00",
+    "title": "Kenny Douglass OOO",
+    "details": "Kenny will be out of office all day",
+    "reservedBy": ""
+  },
+  {
+    "id": "179340112092314yma4",
+    "display": [
+      "hoa",
+      "conference"
+    ],
+    "date": "2026-11-02",
+    "start": "12:30",
+    "end": "13:30",
+    "title": "Pond Sub-Committee",
+    "details": "Location: Conference Room",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793401120923kg05og",
+    "display": [
+      "hoa",
+      "conference"
+    ],
+    "date": "2026-11-02",
+    "start": "15:00",
+    "end": "16:00",
+    "title": "LGC Sub Committee",
+    "details": "Location: Conference Room",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793401120923fyd2mf",
+    "display": [
+      "hoa"
+    ],
+    "date": "2026-11-03",
+    "start": "07:00",
+    "end": "07:15",
+    "title": "Recycling",
+    "details": "",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793401120923kzpks9",
+    "display": [
+      "hoa",
+      "conference"
+    ],
+    "date": "2026-11-03",
+    "start": "09:00",
+    "end": "11:30",
+    "title": "Events Committee",
+    "details": "Location: Conference Room",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793401120923kc39a9",
+    "display": [
+      "hoa",
+      "conference"
+    ],
+    "date": "2026-11-04",
+    "start": "09:30",
+    "end": "11:00",
+    "title": "Newsletter Sub-Committee",
+    "details": "Location: Conference Room",
+    "reservedBy": ""
+  },
+  {
+    "id": "17934011209234lhc75",
+    "display": [
+      "hoa",
+      "conference"
+    ],
+    "date": "2026-11-04",
+    "start": "13:00",
+    "end": "15:00",
+    "title": "ARC",
+    "details": "Location: Conference Room",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793401120923gsnbyh",
+    "display": [
+      "hoa",
+      "conference"
+    ],
+    "date": "2026-11-04",
+    "start": "15:00",
+    "end": "17:00",
+    "title": "LGC",
+    "details": "Location: Conference Room",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793401120923siic0p",
+    "display": [
+      "hoa"
+    ],
+    "date": "2026-11-05",
+    "start": "08:00",
+    "end": "15:00",
+    "title": "Kenny Douglass - Offsite Training",
+    "details": "Kenny Douglass will be offsite for training and will be unavailable during this time.",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793401120923zevv6n",
+    "display": [
+      "hoa"
+    ],
+    "date": "2026-11-06",
+    "start": "08:00",
+    "end": "15:00",
+    "title": "Kenny Douglass - Offsite Training",
+    "details": "Kenny Douglass will be offsite for training and will be unavailable during this time.",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793401120923f3x4kb",
+    "display": [
+      "hoa",
+      "conference"
+    ],
+    "date": "2026-11-06",
+    "start": "09:00",
+    "end": "11:00",
+    "title": "LGC Presentation Planning",
+    "details": "Location: Conference Room",
+    "reservedBy": ""
+  },
+  {
+    "id": "179340112092370y5d1",
+    "display": [
+      "hoa",
+      "conference"
+    ],
+    "date": "2026-11-06",
+    "start": "15:00",
+    "end": "16:00",
+    "title": "Lifestyle Vendor Discussion",
+    "details": "Location: Conference Room",
+    "reservedBy": ""
+  },
+  {
+    "id": "17934011209239rc3w4",
+    "display": [
+      "hoa",
+      "conference"
+    ],
+    "date": "2026-11-09",
+    "start": "15:30",
+    "end": "17:00",
+    "title": "Communications Committee",
+    "details": "Location: Lodge. Conference Room",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793401120923ffftkw",
+    "display": [
+      "hoa",
+      "conference"
+    ],
+    "date": "2026-11-11",
+    "start": "13:00",
+    "end": "15:00",
+    "title": "Board Work Session",
+    "details": "Location: Conference Room",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793401120923tv09uv",
+    "display": [
+      "hoa"
+    ],
+    "date": "2026-11-11",
+    "start": "16:00",
+    "end": "18:00",
+    "title": "Veteran Appreciation",
+    "details": "Location: The Lodge",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793401120923scu7lw",
+    "display": [
+      "hoa",
+      "conference"
+    ],
+    "date": "2026-11-16",
+    "start": "10:00",
+    "end": "12:00",
+    "title": "Finance Committee",
+    "details": "Location: Conference Room",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793401120923e4k85g",
+    "display": [
+      "hoa"
+    ],
+    "date": "2026-11-17",
+    "start": "07:00",
+    "end": "07:15",
+    "title": "Recycling",
+    "details": "",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793401120923p7cpps",
+    "display": [
+      "hoa",
+      "conference"
+    ],
+    "date": "2026-11-17",
+    "start": "09:00",
+    "end": "12:00",
+    "title": "Ballot Counting",
+    "details": "Location: Conference Room",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793401120923nk83w7",
+    "display": [
+      "hoa",
+      "conference"
+    ],
+    "date": "2026-11-17",
+    "start": "18:00",
+    "end": "20:00",
+    "title": "IT Committee",
+    "details": "Location: Conference Room",
+    "reservedBy": ""
+  },
+  {
+    "id": "179340112092305d8px",
+    "display": [
+      "hoa"
+    ],
+    "date": "2026-11-18",
+    "start": "17:30",
+    "end": "20:00",
+    "title": "Annual Member's Meeting",
+    "details": "",
+    "reservedBy": ""
+  },
+  {
+    "id": "17934011209237aoo9t",
+    "display": [
+      "hoa"
+    ],
+    "date": "2026-11-19",
+    "start": "09:00",
+    "end": "11:00",
+    "title": "EPC",
+    "details": "Location: Lodge Conference Room",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793401120923svx689",
+    "display": [
+      "hoa",
+      "conference"
+    ],
+    "date": "2026-11-19",
+    "start": "13:00",
+    "end": "15:00",
+    "title": "FCIC",
+    "details": "Location: Conference Room",
+    "reservedBy": ""
+  },
+  {
+    "id": "17934011209232n8jf7",
+    "display": [
+      "hoa"
+    ],
+    "date": "2026-11-21",
+    "start": "12:00",
+    "end": "17:00",
+    "title": "Private Event",
+    "details": "Location: The Lodge",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793401120923i7mmwt",
+    "display": [
+      "hoa"
+    ],
+    "date": "2026-11-26",
+    "start": "09:00",
+    "end": "17:00",
+    "title": "Management Office Closed",
+    "details": "",
+    "reservedBy": ""
+  },
+  {
+    "id": "1793401120923d5dnlv",
+    "display": [
+      "hoa"
+    ],
+    "date": "2026-11-27",
+    "start": "09:00",
+    "end": "17:00",
+    "title": "Management Office Closed",
+    "details": "",
+    "reservedBy": ""
+  },
+  {
+    "id": "17934011209231a39ks",
+    "display": [
+      "hoa",
+      "conference"
+    ],
+    "date": "2026-11-30",
+    "start": "15:00",
+    "end": "16:00",
+    "title": "LGC Sub Committee",
+    "details": "Location: Conference Room",
+    "reservedBy": ""
   }
 ]
