@@ -3371,5 +3371,18 @@
     "title": "LGC Sub Committee",
     "details": "Location: Conference Room",
     "reservedBy": ""
+  },
+  {
+    "id": "17937425282258xrv4s",
+    "display": [
+      "hoa",
+      "conference"
+    ],
+    "date": "2026-11-13",
+    "start": "10:30",
+    "end": "11:30",
+    "title": "Solar Team",
+    "details": "",
+    "reservedBy": ""
   }
 ]
