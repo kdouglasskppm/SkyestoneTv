@@ -3384,5 +3384,18 @@
     "title": "Solar Team",
     "details": "",
     "reservedBy": ""
+  },
+  {
+    "id": "1794413035602i27rbx",
+    "display": [
+      "hoa",
+      "conference"
+    ],
+    "date": "2026-11-11",
+    "start": "10:00",
+    "end": "12:00",
+    "title": "2027 Calendaring",
+    "details": "",
+    "reservedBy": ""
   }
 ]
