@@ -3397,5 +3397,17 @@
     "title": "2027 Calendaring",
     "details": "",
     "reservedBy": ""
+  },
+  {
+    "id": "17950262780838l8you",
+    "display": [
+      "hoa"
+    ],
+    "date": "2026-11-25",
+    "start": "13:00",
+    "end": "17:00",
+    "title": "Management Office Closed",
+    "details": "",
+    "reservedBy": ""
   }
 ]
